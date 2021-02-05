@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="Scripts/ProjectSwitch.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="Header" id="header">
+        <p class="Name"> Tomasz Jaworski </p>
+        <div class="Control" style="left: 600px;" onclick="location.href='#aboutMe';">
+            <p class="ControlText"> About me </p>
+        </div>
+        <div class="Control" style="left: 800px;" onclick="location.href='#projects';">
+            <p class="ControlText"> Projects </p>
+        </div>
+        <div class="Control" style="left: 1000px;" onclick="location.href='#contact';">
+            <p class="ControlText"> Contact </p>
+        </div>
+        <div class="ControlImage" style="right: 30px;" onclick="location.href='https://github.com/ToamszJaworski';">
+          <img src="Resources/GitHubLogo.PNG" style="width: 69px; height: 60px; margin-left: 16px; margin-right: auto; margin-top: 7px;">
+      </div>
+    </div>
+    <div class="AboutMe" id="aboutMe">
+        <img src="Resources/prof.PNG" id="profil" style="width: 475px; height: 475px;">
+        <p class="Joke">"It's not a bug, It's a feature."</p>
+        <p class="Headlines" style="width: 220px;">Experience</p>
+        <table class ="mainTable">
+          <tr>
+            <td style="text-align: left;">UNITY</td>
+            <td style="text-align: right;">4 YEARS</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">C#</td>
+            <td style="text-align: right;">4 YEARS</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">VISUAL STUDIO</td>
+            <td style="text-align: right;">4 YEARS</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">GIT</td>
+            <td style="text-align: right;">2 YEARS</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">ENGLISH</td>
+            <td style="text-align: right;">INTERMEDIATE</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">C++</td>
+            <td style="text-align: right;">1 YEAR (BEGINNER)</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">JAVASCRIPT</td>
+            <td style="text-align: right;">JUST STARTED</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">HTML</td>
+            <td style="text-align: right;">JUST STARTED</td>
+          </tr>
+        </table>
+    </div>
+    <div class="Projects" id="projects">
+      <br>
+      <div style="width: 850px; margin-left: auto; margin-right: auto;">
+        <div class="ProjectButton" onclick="Best();" id="bestButt">
+          <img src="Resources/star.PNG" id="icon" style="width: 100px; height: 100px; margin-left: 50px; margin-top: 30px;">
+          <p class="ProjectButtonText">BEST</p>
+        </div>
+        <div class="ProjectButton" onclick="Games();" id="gamesButt">
+          <img src="Resources/game.PNG" id="icon" style="width: 100px; height: 100px; margin-left: 50px; margin-top: 30px;">
+          <p class="ProjectButtonText">GAMES</p>
+        </div>
+        <div class="ProjectButton"onclick="Other();" id="otherButt">
+          <img src="Resources/code.PNG" id="icon" style="width: 100px; height: 100px;margin-left: 50px; margin-top: 30px;">
+          <p class="ProjectButtonText">OTHER</p>
+        </div>
+      </div>
+      <div class="Content" id="best">
+        <table class="ContentTable">
+          <tr>
+            <td rowspan="2"><img src="Resources/apocalypseZOZOicon.png" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">ApocalypseZOZO</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              I've made this game in two days with my friend for GMTK Game Jam 2020.<br>
+              The theme was "Out of Control". Map is randomly generated for premaded prefabs.<br>
+              The main goal is to save city from being transformed into zombie town. Enjoy!<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://straditarion.itch.io/apocalypse-z0z0';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/enemyScript.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Abstract Enemy Class</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              <br>
+              That is an abstract class that I made on KrakJam 2021. I belive that It has a very good structure.<br>
+              A job of it was to handle basic enemy mechanics and let you to create diffrent enemies very eas.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://gitlab.com/kathe.twardowska/kosmiczny-jesz/-/blob/master/KosmicznyJeszURP/Assets/_Scripts/Game/GeneralScripts/Enemy.cs';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/randomLandGeneratorIcon.png" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Random Land</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This is random land generator based on Fast Noise library.<br>
+              Unfortunately, I don't have any code from this project.<br>
+              All the models you see in the icon were made by me in a blender.<br>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/2DRandomMap.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">2D Random Map Generator</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This is random map generator based on Fast Noise library.<br>
+              This is only one script that has very good structure, I belive.<br>
+              I'm not good at 2D graphics, so I used only blank white sprites.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/2DMapGenerator/blob/main/MapGenerator.cs';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/SortingLibrary.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Sorting Library</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              That's a sorting library that I made in C#. It contains Quick Sort, Buble and Insert.<br>
+              I've made also unity implementation of it but i see no point of putting it there.<br>
+              <br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/SortingLib';"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="Content" id="games" >
+        <table class="ContentTable">
+          <tr>
+            <td rowspan="2"><img src="Resources/apocalypseZOZOicon.png" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">ApocalypseZOZO</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              I've made this game in two days with my friend for GMTK Game Jam 2020.<br>
+              The theme was "Out of Control". Map is randomly generated for premaded prefabs.<br>
+              The main goal is to save city from being transformed into zombie town. Enjoy!<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://straditarion.itch.io/apocalypse-z0z0';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/mirror.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">GhostZERO</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              It's unity adaptation of garry's mod's game "Hidden".<br>
+              I didn't really get even close to it but I added some mechanics and very good working looby.<br>
+              All project is powered by unity mirror.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/GhostZERO';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/jesz.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Kosmiczny Jesz</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This game is not the perfect project if we are talking about gmae desing and balance,<br>
+              but I think that I wrote some of code very good here. This is project for KrakJam 2021.<br>
+              You just controll a hedgehog in the space and need to fight the enemies to reach an apple.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://globalgamejam.org/2021/games/kosmicznyjesz-7';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/saper.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Minesweeper</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              I've made a casual minesweeper in unity.<br>
+              All graphics are provided by my sister.<br>
+              <br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/Saper';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/screwLoops.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Screw These Loops</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This game is for Ludum Dare 47 in 2020. I made this in a small team, where I was game desinger<br>
+              and only one programmer. I think this game is very fun to play tho.<br>
+              Theme was "Stuck in a Loop"<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://tomasz-jaworski.itch.io/screw-these-loops';"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="Content" id="other">
+        <table class="ContentTable">
+          <tr>
+            <td rowspan="2"><img src="Resources/AlbionPage.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Albion Guild's Page</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              I've made this page in 3 days for my guild using NodeJS.<br>
+              It was my first try of creating pages.<br>
+              It use Albion Databse API that sends data in JSON.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/AlbionGuildPage';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/chessEngine.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Chess Engine</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This is half-tutorial based chess engine that I converted from C to C# and added some my features.<br>
+              It's using bit operations and advanced algorithms, but i used too much static fields here.<br>
+              I think the rating of this engine is about 1600. It's using UCI protocol to comunicate with UI.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/ChessEngineAngela';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/neural.png" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Neural Network</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              That's a sorting library that I made in C#. It contains Quick Sort, Buble and Insert.<br>
+              I've made also unity implementation of it but I see no point of putting it there.<br>
+              <br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/NeuralNetwork';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/line.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Parabolic Line Generator</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              This is a parabolic line generator that creates a line from A to B and it's powered by Unity.<br>
+              As an input u can provide an base multiplier that changes the angle of the line.<br>
+              You can also provide the number of the line segments, becouse it's using Line Renderer component.<br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/LineGenerator/blob/main/LineGenerator.cs';"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><img src="Resources/SortingLibrary.PNG" class="ProjectIcon"></td>
+            <td style="text-align: left;" id="ProjectIconText">Sorting Library</td>
+          </tr>
+          <tr>
+            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
+              That's a sorting library that I made in C#. It contains Quick Sort, Buble and Insert.<br>
+              I've made also unity implementation of it but I see no point of putting it there.<br>
+              <br>
+            </td>
+            <td><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/SortingLib';"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="Contact" id="contact">
+      <p class="Headlines" style="width: 170px;">Contact</p>
+      <table class ="mainTable">
+        <tr>
+          <td style="text-align: left;">Phone</td>
+          <td style="text-align: right;">(+48) 534 027 642</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">Email</td>
+          <td style="text-align: right;">tomasz.jaworski@gmail.com</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">Address</td>
+          <td style="text-align: right;">ul.A11/3 Węgrzce, Kraków</td>
+        </tr>
+    </div>
+  </body>
+</html>

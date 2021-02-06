@@ -180,11 +180,16 @@ body
     outline-width: 2px;
     outline-color: rgb(143, 143, 143);
     background-color: white;
+    transition: transform .2s;
+}
+
+.ProjectIcon:hover
+{
+    transform: scale(2.5);
 }
 
 #ProjectIconText
 {
-    position: relative; 
     color: white; 
     font-family: 'Potta One', cursive;
 }

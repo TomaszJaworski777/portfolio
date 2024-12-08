@@ -1,320 +1,523 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="Scripts/ProjectSwitch.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="Header" id="header">
-        <p class="Name"> Tomasz Jaworski </p>
-        <div class="Control" style="left: 600px;" onclick="location.href='#aboutMe';">
-            <p class="ControlText"> About me </p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Tomasz Jaworski</h2>
+            <p style="padding-left: 10px; color: #999;">Game Developer</p>
+            <div class="social-links" style="padding-left: 10px;">
+              <a href="https://www.linkedin.com/in/tomasz-jaworski-4217bb176/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/TomaszJaworski777"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="Control" style="left: 800px;" onclick="location.href='#projects';">
-            <p class="ControlText"> Projects </p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Tomasz Jaworski</h2>
+            <p class="fst-italic py-3">
+            I have been programming for nine years, and my passion for game development was sparked at the very beginning of this journey. I learned mainly through online courses, which allowed me to independently explore various technologies and tools. I participated in numerous competitions and game jams, which not only expanded my skills but also gave me the opportunity to collaborate with other enthusiasts.
+            </br></br>
+            Over the past 3.5 years, I have had the chance to grow professionally and contribute to the development of mobile games. At the same time, I have been working on chess engines. My best project, Jackal, plays at a superhuman level (over 3000 ELO) and leverages machine learning. I am particularly fascinated by creating AI for game opponents, combining my interests in programming and artificial intelligence.
+            </br></br>
+            I am committed to continuously improving my skills. I stay up-to-date with the latest advancements in the gaming world and development processes. My dream is to one day create a world-class game that combines innovation with the passion I pour into every project.
+            </p>
+          </div>
         </div>
-        <div class="Control" style="left: 1000px;" onclick="location.href='#contact';">
-            <p class="ControlText"> Contact </p>
+
+      </div>
+
+          <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>UNITY</span> <i class="val">9 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">9 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>VISUAL STUDIO</span> <i class="val">7 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JETBRAINS RIDER</span> <i class="val">3 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>GIT VERSION CONTROL</span> <i class="val">6 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>ECS</span> <i class="val">3 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>C++</span> <i class="val">BEGINNER</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>RUST</span> <i class="val">1 YEAR</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JAVASCRIPT</span> <i class="val">BEGINNER</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">BEGINNER</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>POLISH</span> <i class="val">NATIVE</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>ENGLISH</span> <i class="val">INTERMEDIATE</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
         </div>
-        <div class="ControlImage" style="right: 30px;" onclick="location.href='https://github.com/TomaszJaworski777';">
-          <img src="Resources/GitHubLogo.png" style="width: 69px; height: 60px; margin-left: 16px; margin-right: auto; margin-top: 7px;">
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    </section><!-- /About Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>With 9 years of programming experience, I have big passion for creating games and exploring new technologies. I worked on mobile games and strong chess engines, always trying to improve my skills and make better projects.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-game">Games</li>
+            <li data-filter=".filter-other">Other</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="isotope-item filter-game">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/apocalypseZOZOicon.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>ApocalypseZOZO</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    I made this game with my friend in just two days for the GMTK Game Jam 2020. The theme was "Out of Control." The map is randomly generated using premade prefabs. The main goal of the game is to stop the city from turning into a zombie town. We ended up spending a lot of time on the technical stuff, so we didn’t really get a chance to polish the gameplay. Even so, I’m proud of what we managed to put together. Hope you enjoy it!                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="https://straditarion.itch.io/apocalypse-z0z0" title="Try It Out" class="icon-link"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="" title="View Code" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-other">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/jackal.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Jackal</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    This is one of my recent projects—a chess engine written in Rust. It uses MCTS (Monte Carlo Tree Search) and neural networks to play at a superhuman level, with a strength of over 3000 Elo. In this engine, I’m experimenting with ways to tweak MCTS and the neural network to make its playstyle more aggressive.                  
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="https://lichess.org/@/JackalBot" title="Try It Out" class="icon-link"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="https://github.com/TomaszJaworski777/Jackal" title="View Code" class="icon-link"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-other">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/javelin.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Javelin</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    This is my first project in Rust. I decided to try creating a chess engine using the less common MCTS (Monte Carlo Tree Search) technique. The result is an engine that plays at a level of around 2800 Elo. Working on it also gave me a chance to learn more about training and implementing neural networks. I haven’t set up a Lichess bot for it yet, but you can check out the code on my GitHub.
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="" title="Try It Out" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="https://github.com/TomaszJaworski777/Javelin" title="View Code" class="icon-link"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-game">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/oneRoomIcon.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>One Room?</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    I made this game with my friend in two days for the Indie Tales Game Jam 2021. The theme was "One Room." We thought it’d be cool to use an orthographic camera to show multiple copies of the same room. The goal is to spot and click on as many rooms with a missing object as you can before the timer runs out. Hope you have fun!
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="https://tomasz-jaworski.itch.io/one-room" title="Try It Out" class="icon-link"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="" title="View Code" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-game">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/screwLoops.PNG" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Screw These Loops</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    I made this game in two days with my friends for Ludum Dare 47. The theme was "Stuck in a Loop," so I wanted to create a game where the player has to break things to progress. It’s a short story-driven puzzle game about a character trying to escape from a code loop. Hope you enjoy it!
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="https://tomasz-jaworski.itch.io/screw-these-loops" title="Try It Out" class="icon-link"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="" title="View Code" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-other">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/neural.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Neural Network Library</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    This is a very simple multilayer perceptron based on the JavaScript Neural library. I also made a Unity implementation of it, but I didn’t see much point in including it here. I’ve added my matrix library to the files as well.
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="" title="Try It Out" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="https://github.com/TomaszJaworski777/NeuralNetwork" title="View Code" class="icon-link"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-game">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/randomLandGeneratorIcon.png" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Random Land Generator</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    This is a random land generator I made using the Fast Noise library. It was my first attempt at something like this, and I’m pretty happy with how it turned out. I also created a water shader for the project, which you can see in the image. Unfortunately, I no longer have the code for this project.
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="" title="Try It Out" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="" title="View Code" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="isotope-item filter-other">
+              <div style="width: 100%; height: 200px; position: relative; display: flex; align-items: stretch;">
+                <!-- Image on the left -->
+                <div class="img-fluid" style="height: 100%; position: absolute; width: 24%; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/img/projects/SortingLibrary.PNG" alt="" style="height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            
+                <!-- Content on the right -->
+                <div style="position: absolute; left: 25%; top: 0; bottom: 0; right: 0; padding: 10px; display: flex; flex-direction: column;">
+                  <!-- Title -->
+                  <h5><b>Sorting Library</b></h5>
+                
+                  <!-- Description -->
+                  <p class="fst-italic py-3" style="flex: 1; overflow-wrap: break-word; margin-top: 15px;">
+                    This is a sorting library I made in C#. It includes Quick Sort, Bubble Sort, and Insertion Sort. I created it to get more hands-on experience with these sorting algorithms and to practice writing cleaner code. It was a few years ago, but looking back, I still think the code wasn’t too bad. Though, in hindsight, I might have gone a little overboard with the comments.
+                  </p>
+                
+                  <!-- Bottom-right corner images -->
+                  <div style="position: absolute; top: 5px; right: 10px; display: flex; gap: 15px;">
+                    <a href="" title="Try It Out" class="icon-link" style="pointer-events: none; color: #AAA;"><i class="bi bi-controller" style="font-size: 32px;"></i></a>
+                    <a href="https://github.com/TomaszJaworski777/SortingLib" title="View Code" class="icon-link"><i class="bi bi-code-slash" style="font-size: 32px;"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300" style="margin-left: 505px;">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>(+48) 798 412 800</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400" style="margin-left: 505px;">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email</h3>
+            <p>tomaszjaworski.kontakt@gmail.com</p>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Tomasz Jaworski</h3>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/tomasz-jaworski-4217bb176/"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/TomaszJaworski777"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
     </div>
-    <div class="AboutMe" id="aboutMe">
-        <img src="Resources/prof.PNG" id="profil" style="width: 475px; height: 475px;">
-        <p class="Joke">"It's not a bug, It's a feature."</p>
-        <p class="Headlines" style="width: 220px;">Experience</p>
-        <table class ="mainTable">
-          <tr>
-            <td style="text-align: left;">UNITY</td>
-            <td style="text-align: right;">7 YEARS</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">C#</td>
-            <td style="text-align: right;">7 YEARS</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">VISUAL STUDIO</td>
-            <td style="text-align: right;">6 YEARS</td>
-          </tr>
-	  <tr>
-            <td style="text-align: left;">JetBrains Rider</td>
-            <td style="text-align: right;">1 YEAR</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">GIT</td>
-            <td style="text-align: right;">6 YEARS</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">ENGLISH</td>
-            <td style="text-align: right;">INTERMEDIATE</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">C++</td>
-            <td style="text-align: right;">1 YEAR (BEGINNER)</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">JAVASCRIPT</td>
-            <td style="text-align: right;">JUST STARTED</td>
-          </tr>
-          <tr>
-            <td style="text-align: left;">HTML</td>
-            <td style="text-align: right;">JUST STARTED</td>
-          </tr>
-	  <tr>
-            <td style="text-align: left;">ECS</td>
-            <td style="text-align: right;">2 YEARS</td>
-          </tr>
-        </table>
-    </div>
-    <div class="Projects" id="projects">
-      <br>
-      <div style="width: 850px; margin-left: auto; margin-right: auto;">
-        <div class="ProjectButton" onclick="Best();" id="bestButt">
-          <img src="Resources/star.png" id="icon" style="width: 100px; height: 100px; margin-left: 50px; margin-top: 30px;">
-          <p class="ProjectButtonText">BEST</p>
-        </div>
-        <div class="ProjectButton" onclick="Games();" id="gamesButt">
-          <img src="Resources/game.png" id="icon" style="width: 100px; height: 100px; margin-left: 50px; margin-top: 30px;">
-          <p class="ProjectButtonText">GAMES</p>
-        </div>
-        <div class="ProjectButton"onclick="Other();" id="otherButt">
-          <img src="Resources/code.png" id="icon" style="width: 100px; height: 100px;margin-left: 50px; margin-top: 30px;">
-          <p class="ProjectButtonText">OTHER</p>
-        </div>
-      </div>
-      <div class="Content" id="best">
-        <table class="ContentTable">
-	  <tr>
-            <td rowspan="2"><img src="Resources/screwtheseloopicon.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Screw these loops!</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made this game in two days with my friends for Ludum Dare 47.<br>
-              The theme was "Stuck in loop". It's short story puzzle game where.<br>
-	      main character tries to escape from the code loop. Enjoy!<br>
-            </td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://tomasz-jaworski.itch.io/screw-these-loops';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-	  <tr>
-            <td rowspan="2"><img src="Resources/oneRoomIcon.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">One Room?</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made this game in two days with my friend for Indie Tales Game Jam 2021.<br>
-              The theme was "One Room". The main goal is to click on as many room with missing.<br>
-              object as you can while time is constantly running down. Enjoy!<br>
-            </td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://tomasz-jaworski.itch.io/one-room';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/apocalypseZOZOicon.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">ApocalypseZOZO</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made this game in two days with my friend for GMTK Game Jam 2020.<br>
-              The theme was "Out of Control". Map is randomly generated for premaded prefabs.<br>
-              The main goal is to save city from being transformed into zombie town. Enjoy!<br>
-            </td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://straditarion.itch.io/apocalypse-z0z0';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/enemyScript.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Abstract Enemy Class</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              <br>
-              That is an abstract class that I made on KrakJam 2021. I belive that It has a very good structure.<br>
-              A job of it was to handle basic enemy mechanics and let you to create diffrent enemies very easy.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://gitlab.com/kathe.twardowska/kosmiczny-jesz/-/blob/master/KosmicznyJeszURP/Assets/_Scripts/Game/GeneralScripts/Enemy.cs';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/randomLandGeneratorIcon.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Random Land</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This is random land generator based on Fast Noise library.<br>
-              Unfortunately, I don't have any code from this project.<br>
-              All the models you see in the icon were made by me in a blender.<br>
-            </td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/2DRandomMap.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">2D Random Map Generator</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This is random map generator based on Fast Noise library.<br>
-              This is only one script that has very good structure, I belive.<br>
-              I'm not good at 2D graphics, so I used only blank white sprites.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/2DMapGenerator/blob/main/MapGenerator.cs';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/SortingLibrary.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Sorting Library</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              That's a sorting library that I made in C#. It contains Quick Sort, Buble and Insert.<br>
-              I've made also unity implementation of it but i see no point of putting it there.<br>
-              <br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/SortingLib';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-        </table>
-      </div>
-      <div class="Content" id="games" >
-        <table class="ContentTable">
-          <tr>
-            <td rowspan="2"><img src="Resources/apocalypseZOZOicon.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">ApocalypseZOZO</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made this game in two days with my friend for GMTK Game Jam 2020.<br>
-              The theme was "Out of Control". Map is randomly generated for premaded prefabs.<br>
-              The main goal is to save city from being transformed into zombie town. Enjoy!<br>
-            </td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://straditarion.itch.io/apocalypse-z0z0';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/mirror.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">GhostZERO</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              It's unity adaptation of garry's mod's game "Hidden".<br>
-              I didn't really get even close to it but I added some mechanics and very good working looby.<br>
-              All project is powered by unity mirror.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/GhostZERO';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/jesz.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Kosmiczny Jesz</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This game is not the perfect project if we are talking about gmae desing and balance,<br>
-              but I think that I wrote some of code very good here. This is project for KrakJam 2021.<br>
-              You just controll a hedgehog in the space and need to fight the enemies to reach an apple.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://gitlab.com/kathe.twardowska/kosmiczny-jesz/-/tree/master/KosmicznyJeszURP';"> <span class="tooltiptext">Check the code</span></div></td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://drive.google.com/drive/folders/1ka6y5Coo1lS26xmjnvGUxvDNw5vJ8kev';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/saper.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Minesweeper</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made a casual minesweeper in unity.<br>
-              All graphics are provided by my sister.<br>
-              <br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/Saper';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/screwLoops.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Screw These Loops</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This game is for Ludum Dare 47 in 2020. I made this in a small team, where I was game desinger<br>
-              and only one programmer. I think this game is very fun to play tho.<br>
-              Theme was "Stuck in a Loop"<br>
-            </td>
-            <td><div class="Button"><img src="Resources/eye.png" class="SeePageButton" onclick="location.href='https://tomasz-jaworski.itch.io/screw-these-loops';"> <span class="tooltiptext">Try youself</span></div></td>
-          </tr>
-        </table>
-      </div>
-      <div class="Content" id="other">
-        <table class="ContentTable">
-          <tr>
-            <td rowspan="2"><img src="Resources/AlbionPage.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Albion Guild's Page</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              I've made this page in 3 days for my guild using NodeJS.<br>
-              It was my first try of creating pages. It use Albion Databse API that sends data in JSON.<br>
-              I can't put it here, becouse it requries discord authentication.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/AlbionGuildPage';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/chessEngine.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Chess Engine</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This is half-tutorial based chess engine that I converted from C to C# and added some my features.<br>
-              It's using bit operations and advanced algorithms, but i used too much static fields here.<br>
-              I think the rating of this engine is about 1600. It's using UCI protocol to comunicate with UI.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/ChessEngineAngela';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/neural.png" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Neural Network</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This is very simple multilayer perceptron based on java script neural.<br>
-              I've made also unity implementation of it but I see no point of putting it there.<br>
-			  I've also gave my matrix library to the files.<br>
-              <br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/NeuralNetwork';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/line.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Parabolic Line Generator</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              This is a parabolic line generator that creates a line from A to B and it's powered by Unity.<br>
-              As an input u can provide an base multiplier that changes the angle of the line.<br>
-              You can also provide the number of the line segments, becouse it's using Line Renderer component.<br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/LineGenerator/blob/main/LineGenerator.cs';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-          <tr>
-            <td rowspan="2"><img src="Resources/SortingLibrary.PNG" class="ProjectIcon"></td>
-            <td style="text-align: left;" id="ProjectIconText">Sorting Library</td>
-          </tr>
-          <tr>
-            <td style="text-align: left; color: rgb(206, 206, 206); font-family: 'Roboto', sans-serif;">
-              That's a sorting library that I made in C#. It contains Quick Sort, Buble and Insert.<br>
-              I've made also unity implementation of it but I see no point of putting it there.<br>
-              <br>
-            </td>
-            <td><div class="Button"><img src="Resources/checkPage.png" class="SeePageButton" onclick="location.href='https://github.com/TomaszJaworski777/SortingLib';"> <span class="tooltiptext">Check the code</span></div></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div class="Contact" id="contact">
-      <p class="Headlines" style="width: 170px;">Contact</p>
-      <table class ="mainTable">
-        <tr>
-          <td style="text-align: left;">Phone</td>
-          <td style="text-align: right;">(+48) 798 412 800</td>
-        </tr>
-        <tr>
-          <td style="text-align: left;">Email</td>
-          <td style="text-align: right;">tomaszjaworski.kontakt@gmail.com</td>
-        </tr>
-    </div>
-  </body>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
